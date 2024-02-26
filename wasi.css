@@ -1,0 +1,238 @@
+
+body {
+    background-color:rgba(9, 147, 152, 0.722);
+    color: white;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-size: large; */
+    /* font-size: larger; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+    /* text-decoration: none; */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(154, 154, 250);
+    font-size: 2rem;
+}
+
+.left {
+    font-size: 5rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+
+
+}
+
+.first>div {
+    width: 30%;
+}
+
+.leftsection {
+    /* background-color:red ; */
+    /* width: 34px; */
+    font-size: 4rem;
+    /* margin: 70px 0; */
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 80px;
+}
+
+/* .dev{
+       width: 80%;
+       margin: 50px;
+       } */
+.purple {
+    color: rgb(170, 107, 288);
+}
+
+#element {
+    color: rgb(170, 107, 288);
+}
+
+/* .p{
+    padding: 80px 0;
+    margin-right: 1000px;
+    color: whitesmoke; 
+     
+}
+.p h1{
+   font-size: 3rem;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+.about-col-2{
+    background-color: red;
+    width: 1000px;
+    height: 1000px;
+    
+} */
+#About
+{
+    padding: 80px 0;
+    color: whitesmoke;
+}
+.title{
+    font-size: 5rem;
+    text-align: left;
+    color: rgb(170, 107, 288);
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-right: 400px;
+    /* margin: 80px; */
+    
+}
+.about-col-1{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.about-col-1 img{
+    height: 500px;
+}
+.about-col-2{
+    width: 40%;
+    /* background-color: red; */
+    
+}
+ p{
+    font-size: xx-large ;
+}
+.aboutpara{
+    font-size: 30px;
+}
+/* <----------------------services------------> */
+
+#service{
+    padding: 80px 0;
+    padding-left: 200px;
+    padding-right: 250px;
+}
+.services-list{
+    display: grid;
+    /* font-size: 1.5rem; */
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 2px;
+    margin-top: 80px;
+}
+.services-list div{
+    background-color: rgb(18, 18, 62);
+    padding: 60px;
+    margin-right: 200px;
+    font-size:10px ;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s,transfrom 0.5s;
+}
+h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.servicespara{
+    font-size: 20px;
+    font-weight: 300;
+}
+.services-list i{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.services-list a{
+    text-decoration: none;
+    color: white;
+    font-size:12 px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background-color:rgb(72, 72, 244) ;
+    transform: translateY(-15px);
+}
+/* <------------------contact------------> */
+#contact{
+    padding: 80px 0;
+    padding-left: 200px;
+    padding-right: 250px;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-left p{
+    margin-top: 30px;
+    font-size: 30px;
+
+}
+.contact-left p i{
+    color: rgb(170, 107, 288);
+    margin-right: 20px;
+    font-size: 35px;
+}
+.socialicons{
+    margin-top: 30px;
+
+}
+.socialicons     a{
+    text-decoration: none;
+    font-size: 50px;
+    margin-right: 40px;
+    color:rgb(170, 107, 288) ;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.socialicons a :hover{
+    font-size: 55px;   
+}
+.btn{
+    text-decoration: none;
+    font-size: 2.1rem;
+    background-color: rgb(72, 72, 244);
+    color:white;
+}
+.button{
+    padding-left: 200px;
+
+}

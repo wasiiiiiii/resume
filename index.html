@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: brown;">Wasi's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="wasi.css">
+    <script src="https://kit.fontawesome.com/e1a22320aa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" style="color: rgb(135, 250, 250); font-family: Georgia, 'Times New Roman', Times, serif;font-weight: bold;">
+                wasi's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/"> home</a></li>
+                    <li><a href="#About"> About</a></li>
+                    <li><a href="#service"> Services</a></li>
+                    <li><a href="/"> Projects</a></li>
+                    <li><a href="/"> Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi,my name is <span class="purple">Wasi</span>
+                <div>and I am a passionate</div>
+                <!-- <div>Web Develpoer</div> -->
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="prt.png-removebg-preview (1).png" alt="images" class="dev">
+            </div>
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Programmer', 'Student'],
+            typeSpeed: 100,
+        });
+    </script>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="programming-removebg-preview.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="title">About</h1>
+                    <p class="aboutpara" style="font-size: 325%;">Hi i am wasi khan! undergraduate engineer from one of the prestigious institue
+                        of mumbai VJTI learning the various programming concepts such as C++,HTML,Python, I wish to
+                        become a better programmer and im working on it</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <--------------------------services----------------------------->
+    <div id="service">
+        <div class="container">
+            <h1 class="title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2 class="sub">Web Developer</h2>
+                    <p class="servicespara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus
+                        dolorum ex illum ea cumque Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2 class="sub">UI UX desgnner</h2>
+                    <p class="servicespara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus
+                        dolorum ex illum ea cumque Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2 class="sub">App Developer</h2>
+                    <p class="servicespara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos possimus
+                        dolorum ex illum ea cumque.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <-------------------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact me</h1>
+                    <p><i class="fa-solid fa-inbox"></i> wasi33867@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="socialicons">
+                        <a href="/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/__wasi_khan?igsh=cmQ5MmducXRqZ2Ju"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/wasi-khan-338972298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/prajyot-codes"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <div class="button"> <a class="btn" href="">Download CV</a></div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit">Submit </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
